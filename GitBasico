@@ -1,0 +1,26 @@
+GIT
+
+Novo repositório 
+	git clone <repositório> 
+Adcionar arquivo
+	git add <arquivo>
+Comitando
+	git commit -m "mensagem"
+Subindo para master branch
+	git push origin master
+novo branch
+	git checkout -b <nome do branch>
+retornar ao master branch
+	git checkout master
+excluir um branch
+	git chegout -d feature_n
+para subir a branch 
+	git push origin <nome do branch>
+
+para atualizar o repositório
+	git pull
+
+checar status
+	git status
+adicionar todos os arquivos
+	git add .

@@ -1,0 +1,11 @@
+:set number
+:syntax on
+apertar i para vir para a inserção
+esc para voltar ao modo normal
+:w  ou seja write para salvar
+:q para sair
+:wq salvar e sair
+:q! ignorar modificações
+para desfazer entrar no modo normal e teclar u
+refazer, no modo normal Ctrl + R
+
