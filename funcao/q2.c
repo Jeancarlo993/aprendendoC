@@ -8,14 +8,11 @@ int primo(int x){
 	 }
 	return retorno;
 }
-
 int main(){
 	for(int i=3;i<50000;i++){
-		if(primo(i)==1&&primo(i+2)==1&&primo(i+6)==1){
+		if(primo(i)&&primo(i+2)&&primo(i+6)){
 			printf("(%d, %d, %d)\n",i,i+2,i+6);
 		}
 	}
-
-
 return 0;
 }
