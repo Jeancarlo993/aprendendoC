@@ -10,7 +10,7 @@ int main(){
 	int q, contador=0;
 	scanf("%d",&q);
 	//declarando os vetores das respostas dadas e do gabarito
-	int gabarito[q],resposta[q];
+	int gabarito[q],resposta[q]; //VLA variable length array.
 	armazen(gabarito,q);
 	armazen(resposta,q);
 	//comparando respostas
